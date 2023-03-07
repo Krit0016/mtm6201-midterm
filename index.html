@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Penguin</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e0e30f139d.js" crossorigin="anonymous"></script>
+
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" width="200"></a>
+                </div>
+                <ul class="top-nav">
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+			        <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+			        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+                <ul class="navbar">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div> <!--  container end -->
+        </nav>
+
+        <div class="header-happypenguin">
+            <div class="container">
+                <!-- h1, p, botton -->
+                <h1>Happy Penguin</h1>
+                <p>Explore and enjoy all of our delicious ice cream flavors!</p>
+                <p>We offer more products and palettes with fruits and other toppings.
+                    <li>Ice cream</li>
+                    <li>Soft serve</li> 
+                </p>
+                <button class="explore-btn">Explore</button>
+            </div> <!-- end container -->
+        </div>
+    </header>
+    <main>
+        <section class="section-value">
+            <div class="container">
+                <h2>Our Values</h2>
+                <p>At our ice cream shop, our top priority is our customers' satisfaction. 
+                We take pride in using only the highest quality ingredients to create delicious treats that are always fresh and flavorful.
+                </p>
+                <div class="img-customer">
+                    <picture>
+                        <source srcset="images/value-customer-300_x_300.jpeg" 
+                        media="(max-width: 640px)">
+
+                        <source srcset="images/value-customer-480_x_480.jpeg" 
+                        media="(min-width: 960px)">
+
+                        <img class="orig-img" src="images/customer.jpeg" alt="customer">
+                    </picture>
+                </div>
+                <div class="text-customer">
+                    <h3>Customers</h3>
+                </div>
+
+                <div class="img-quality">
+                    <picture>
+                        <source srcset="images/value-quality-300_x_300.jpeg" 
+                        media="(max-width: 640px)">
+
+                        <source srcset="images/value-quality-480_x_480.jpeg" 
+                        media="(min-width: 960px)">
+
+                        <img class="orig-img" src="images/quality.jpeg" alt="quality">
+                    </picture>
+                </div>
+                <div class="text-quality">
+                    <h3>Quality</h3>
+                </div>
+
+            </div> <!-- end container -->
+        </section> <!-- end section-about -->
+    </main>
+</body>
+</html>
