@@ -128,7 +128,6 @@ nav a:visited {
 nav .current a:link,
 nav .current a:visited {
     color: black;
-    background: FBDEA2;
 }
   
 .nav-icon {
@@ -230,6 +229,11 @@ button:hover {
 
 .header-happypenguin p {
     font-size: 18px;
+}
+
+.icecreamtype {
+    list-style-type: disc;
+    margin-left: 1.5em;
 }
 
 .explore-btn {
