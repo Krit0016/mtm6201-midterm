@@ -183,6 +183,26 @@ button:hover {
     color: white;
 }
 
+.skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: #D6E6AC;
+    color: #112A46;
+    padding: .5em 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.skip-links a:focus {
+    top: 0;
+}
+
 /* SECTION-SPACIFIC STYLES */
 
 /* ====== INTRODUCTION SECTION ===== */
@@ -445,11 +465,6 @@ a {
     footer h4 {
         font-size: 16px;
     }
-      
-    
-    
-      
-
     
 }
 

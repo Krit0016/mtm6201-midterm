@@ -14,169 +14,182 @@
 
     <link href="css/index.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <!-- navigation bar -->
-        <nav> 
-            <div class="container">
-                <div class="nav-box">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="logo" width="200"></a>
+    <!-- skip-links -->
+    <div>
+        <ul class="skip-links">
+            <li><a href="#nav" role="button" aria-label="Skip to main navigation">Skip to main nav</a></li>
+            <li><a href="#main-content" role="button" aria-label="Skip to main content">Skip to main content</a></li>
+            <li><a href="#footer-content" role="button" aria-label="Skip to footer">Skip to footer</a></li>
+        </ul>
+
+        <header>
+            <!-- navigation bar -->
+            <nav id="nav" aria-label="Main Navigation">
+                <div class="container">
+                    <div class="nav-box">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="logo" width="200"></a>
+                        </div>
+                        <ul class="navbar">
+                            <li class="current"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="nav-icon">
+                            <li><a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <li><a href="#" aria-label="Profile"><i class="fa-regular fa-circle-user"></i></a></li>
+                            <li><a href="#" aria-label="Cart"><i class="fas fa-shopping-cart"></i></a></li>
+                        </ul>
                     </div>
-                    <ul class="navbar">
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <ul class="nav-icon">
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-			            <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
-			            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                    </ul>
-                </div>
-            </div> <!--  container end -->
-        </nav>
+                </div> <!--  container end -->
+            </nav>
 
-        <!-- happy penguin introduction -->
-        <div class="header-happypenguin">
-            <div class="container">
-                <!-- h1, p, botton -->
-                <h1>Happy Penguin</h1>
-                <p>Explore and enjoy all of our delicious ice cream flavors!</p>
-                <p>We offer more products and palettes with fruits and other toppings.</p>
-                <ul class="icecreamtype">
-                    <li>Ice cream</li>
-                    <li>Soft serve</li>
-                </ul> 
-                <button class="explore-btn">Explore</button>
-            </div> <!-- end container -->
-        </div>
-    </header>
-
-    <main>
-        <!-- Our value section -->
-        <section class="section-value">
-            <div class="container">
-                <h2>Our Values</h2>
-                <p>At our ice cream shop, our top priority is our customers' satisfaction. 
-                We take pride in using only the highest quality ingredients to create delicious treats that are always fresh and flavorful.
-                Our focus on quality and customer service sets us apart from other ice cream shops. 
-                Come visit us and experience the difference for yourself!
-                </p>
-                <div class="grid-value">
-                    <!-- customers -->
-                    <div class="value">
-                        <div class="img-value">
-                            <picture>
-                                <source srcset="images/value-customer-300_x_300.jpeg" media="(max-width: 640px)">
-                                <source srcset="images/value-customer-480_x_480.jpeg" media="(min-width: 960px)">
-
-                                <img class="orig-img" src="images/customer.jpeg" alt="customer">
-                            </picture>
-                        </div>
-                        <div class="text-value">
-                            <h3>Customers</h3>
-                        </div>
-                    </div>
-
-                    <!-- quality -->
-                    <div class="value">
-                        <div class="img-value">
-                            <picture>
-                                <source srcset="images/value-quality-300_x_300.jpeg" media="(max-width: 640px)">
-                                <source srcset="images/value-quality-480_x_480.jpeg" media="(min-width: 960px)">
-
-                                <img class="orig-img" src="images/quality.jpeg" alt="quality">
-                            </picture>
-                        </div>
-                        <div class="text-value">
-                            <h3>Quality</h3>
-                        </div>
-                    </div>
-
-                    <!-- freshness -->
-                    <div class="value">
-                        <div class="img-value">
-                            <picture>
-                                <source srcset="images/value-freshness-300_x_300.png" media="(max-width: 640px)">
-                                <source srcset="images/value-freshness-480_x_480.png" media="(min-width: 960px)">
-
-                                <img class="orig-img" src="images/freshness.png" alt="freshness">
-                            </picture>
-                        </div>
-                        <div class="text-value">
-                            <h3>Freshness</h3>
-                        </div>
-                    </div>
-                </div>
-                    <button class="seemore-btn">See more</button>
-            </div> <!-- end container -->
-        </section> 
-        <!-- end our value section -->
-
-        <!-- Discovers section -->
-        <section class="section-discover">
-            <div class="container">
-                <h2>Discovers</h2>
-                <p class="tagline">"Creating sweet moments, with every scoop of happiness!"</p>
-                <div class="gallery">
-                   <picture>
-                    <!-- image 1 -->
-                        <source srcset="images/icecream1-300_x_300.jpeg" media="(max-width: 640px)">
-                        <source srcset="images/icecream1-480_x_480.jpeg" media="(min-width: 960px)">
-
-                        <img src="images/icecream1.jpeg" alt="Image 1">
-                   </picture>
-
-                   <picture>
-                    <!-- image 2 -->
-                        <source srcset="images/icecream2-300_x_300.jpeg" media="(max-width: 640px)">
-                        <source srcset="images/icecream2-480_x_480.jpeg" media="(min-width: 960px)">
-
-                        <img src="images/icecream2.jpeg" alt="Image 2">
-                    </picture>
-
-                    <picture>
-                     <!-- image 3 -->
-                        <source srcset="images/icecream3-300_x_300.jpeg" media="(max-width: 640px)">
-                        <source srcset="images/icecream3-480_x_480.jpeg" media="(min-width: 960px)">
-
-                        <img src="images/icecream3.jpeg" alt="Image 3">
-                    </picture>
-
-                    <picture>
-                    <!-- image 4 -->
-                        <source srcset="images/icecream4-300_x_300.jpeg" media="(max-width: 640px)">
-                        <source srcset="images/icecream4-480_x_480.jpeg" media="(min-width: 960px)">
-
-                        <img src="images/icecream4.jpeg" alt="Image 4">
-                    </picture>
-
-                    <picture>
-                    <!-- image 5 -->
-                        <source srcset="images/icecream5-300_x_300.jpeg" media="(max-width: 640px)">
-                        <source srcset="images/icecream5-480_x_480.jpeg" media="(min-width: 960px)">
-
-                        <img src="images/icecream5.jpeg" alt="Image 5">
-                   </picture> 
-                </div>
-              </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <h4>Happy Penguin Socials</h4>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
-                </div>
-                <div class="copyright">&copy; Happy Penguin, 2023.</div>
-                <p>All images are taken from <a href="https://www.pexels.com/">Pexels</a></p>
+            <!-- happy penguin introduction -->
+            <div class="header-happypenguin" aria-label="Happy Penguin Header">
+                <div class="container">
+                    <!-- h1, p, ul, button -->
+                    <h1>Happy Penguin</h1>
+                    <p>Explore and enjoy all of our delicious ice cream flavors!</p>
+                    <p>We offer more products and palettes with fruits and other toppings.</p>
+                    <ul class="icecreamtype">
+                        <li>Ice cream</li>
+                        <li>Soft serve</li>
+                    </ul> 
+                    <button class="explore-btn" aria-label="Explore our ice cream flavors">Explore</button>
+                </div> <!-- end container -->
             </div>
-        </div> <!-- end container -->    
-    </footer>
+        </header>
+
+        <main role="main" aria-label="Main Content">
+            <div id="main-content">
+            <!-- Our value section -->
+            <section class="section-value">
+                <div class="container">
+                    <h2>Our Values</h2>
+                    <p>At our ice cream shop, our top priority is our customers' satisfaction. 
+                    We take pride in using only the highest quality ingredients to create delicious treats that are always fresh and flavorful.
+                    Our focus on quality and customer service sets us apart from other ice cream shops. 
+                    Come visit us and experience the difference for yourself!
+                    </p>
+                    <div class="grid-value">
+                        <!-- customers -->
+                        <div class="value" aria-label="Customers">
+                            <div class="img-value">
+                                <picture>
+                                    <source srcset="images/value-customer-300_x_300.jpeg" media="(max-width: 640px)">
+                                    <source srcset="images/value-customer-480_x_480.jpeg" media="(min-width: 960px)">
+        
+                                    <img class="orig-img" src="images/customer.jpeg" alt="customer">
+                                </picture>
+                            </div>
+                            <div class="text-value">
+                                <h3>Customers</h3>
+                            </div>
+                        </div>
+
+                        <!-- quality -->
+                        <div class="value" aria-label="Quality">
+                            <div class="img-value">
+                                <picture>
+                                    <source srcset="images/value-quality-300_x_300.jpeg" media="(max-width: 640px)">
+                                    <source srcset="images/value-quality-480_x_480.jpeg" media="(min-width: 960px)">
+
+                                    <img class="orig-img" src="images/quality.jpeg" alt="quality">
+                                </picture>
+                            </div>
+                            <div class="text-value">
+                                <h3>Quality</h3>
+                            </div>
+                        </div>
+
+                        <!-- freshness -->
+                        <div class="value" aria-label="Freshness">
+                            <div class="img-value">
+                                <picture>
+                                    <source srcset="images/value-freshness-300_x_300.png" media="(max-width: 640px)">
+                                    <source srcset="images/value-freshness-480_x_480.png" media="(min-width: 960px)">
+
+                                    <img class="orig-img" src="images/freshness.png" alt="freshness">
+                                </picture>
+                            </div>
+                            <div class="text-value">
+                                <h3>Freshness</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="seemore-btn" aria-label="See more button">See more</button>
+                </div> <!-- end container -->
+            </section> 
+            <!-- end our value section -->
+
+            <!-- Discovers section -->
+            <section class="section-discover">
+                <div class="container">
+                    <h2>Discovers</h2>
+                    <p class="tagline">"Creating sweet moments, with every scoop of happiness!"</p>
+                    <div class="gallery">
+                    <picture>
+                        <!-- image 1 -->
+                            <source srcset="images/icecream1-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/icecream1-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img src="images/icecream1.jpeg" alt="Image 1">
+                    </picture>
+
+                    <picture>
+                        <!-- image 2 -->
+                            <source srcset="images/icecream2-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/icecream2-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img src="images/icecream2.jpeg" alt="Image 2">
+                        </picture>
+
+                        <picture>
+                        <!-- image 3 -->
+                            <source srcset="images/icecream3-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/icecream3-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img src="images/icecream3.jpeg" alt="Image 3">
+                        </picture>
+
+                        <picture>
+                        <!-- image 4 -->
+                            <source srcset="images/icecream4-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/icecream4-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img src="images/icecream4.jpeg" alt="Image 4">
+                        </picture>
+
+                        <picture>
+                        <!-- image 5 -->
+                            <source srcset="images/icecream5-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/icecream5-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img src="images/icecream5.jpeg" alt="Image 5">
+                    </picture> 
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer role="footer" aria-label="Footer Content">
+            <div id="footer-content">
+            <div class="container">
+                <div class="footer-detail">
+                    <h4>Happy Penguin Socials</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <div class="copyright">&copy; Happy Penguin, 2023.</div>
+                    <p>All images are taken from <a href="https://www.pexels.com/">Pexels</a></p>
+                </div>
+            </div> <!-- end container -->    
+        </footer>
+    </div>
+    <!-- end of skip-links -->
 </body>
 </html>
