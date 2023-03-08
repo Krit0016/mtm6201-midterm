@@ -12,29 +12,32 @@
 
     <script src="https://kit.fontawesome.com/e0e30f139d.js" crossorigin="anonymous"></script>
 
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
+        <!-- navigation bar -->
+        <nav> 
             <div class="container">
-                <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" alt="logo" width="200"></a>
+                <div class="nav-box">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo" width="200"></a>
+                    </div>
+                    <ul class="navbar">
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav-icon">
+                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+			            <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+			            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
                 </div>
-                <ul class="top-nav">
-                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-			        <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
-			        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                </ul>
-                <ul class="navbar">
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-
             </div> <!--  container end -->
         </nav>
 
+        <!-- happy penguin introduction -->
         <div class="header-happypenguin">
             <div class="container">
                 <!-- h1, p, botton -->
@@ -48,45 +51,127 @@
             </div> <!-- end container -->
         </div>
     </header>
+
     <main>
+        <!-- Our value section -->
         <section class="section-value">
             <div class="container">
                 <h2>Our Values</h2>
                 <p>At our ice cream shop, our top priority is our customers' satisfaction. 
                 We take pride in using only the highest quality ingredients to create delicious treats that are always fresh and flavorful.
                 </p>
-                <div class="img-customer">
-                    <picture>
-                        <source srcset="images/value-customer-300_x_300.jpeg" 
-                        media="(max-width: 640px)">
+                <!-- customers -->
+                <div class="value">
+                    <div class="img-value">
+                        <picture>
+                            <source srcset="images/value-customer-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/value-customer-480_x_480.jpeg" media="(min-width: 960px)">
 
-                        <source srcset="images/value-customer-480_x_480.jpeg" 
-                        media="(min-width: 960px)">
-
-                        <img class="orig-img" src="images/customer.jpeg" alt="customer">
-                    </picture>
-                </div>
-                <div class="text-customer">
-                    <h3>Customers</h3>
-                </div>
-
-                <div class="img-quality">
-                    <picture>
-                        <source srcset="images/value-quality-300_x_300.jpeg" 
-                        media="(max-width: 640px)">
-
-                        <source srcset="images/value-quality-480_x_480.jpeg" 
-                        media="(min-width: 960px)">
-
-                        <img class="orig-img" src="images/quality.jpeg" alt="quality">
-                    </picture>
-                </div>
-                <div class="text-quality">
-                    <h3>Quality</h3>
+                            <img class="orig-img" src="images/customer.jpeg" alt="customer">
+                        </picture>
+                    </div>
+                    <div class="text-value">
+                        <h3>Customers</h3>
+                    </div>
                 </div>
 
+                <!-- quality -->
+                <div class="value">
+                    <div class="img-value">
+                        <picture>
+                            <source srcset="images/value-quality-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/value-quality-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img class="orig-img" src="images/quality.jpeg" alt="quality">
+                        </picture>
+                    </div>
+                    <div class="text-value">
+                        <h3>Quality</h3>
+                    </div>
+                </div>
+
+                <!-- freshness -->
+                <div class="value">
+                    <div class="img-value">
+                        <picture>
+                            <source srcset="images/value-freshness-300_x_300.png" media="(max-width: 640px)">
+                            <source srcset="images/value-freshness-480_x_480.png" media="(min-width: 960px)">
+
+                            <img class="orig-img" src="images/freshness.png" alt="freshness">
+                        </picture>
+                    </div>
+                    <div class="text-value">
+                        <h3>Freshness</h3>
+                    </div>
+                </div>
+
+                <button>See more</button>
             </div> <!-- end container -->
-        </section> <!-- end section-about -->
+        </section> 
+        <!-- end our value section -->
+
+        <!-- Discovers section -->
+        <section class="section-discover">
+            <div class="container">
+                <h2>Discovers</h2>
+                <div class="gallery">
+                   <picture>
+                    <!-- image 1 -->
+                        <source srcset="images/icecream1-300_x_300.jpeg" media="(max-width: 640px)">
+                        <source srcset="images/icecream1-480_x_480.jpeg" media="(min-width: 960px)">
+
+                        <img src="images/icecream1.jpeg" alt="Image 1">
+                   </picture>
+
+                   <picture>
+                    <!-- image 2 -->
+                        <source srcset="images/icecream2-300_x_300.jpeg" media="(max-width: 640px)">
+                        <source srcset="images/icecream2-480_x_480.jpeg" media="(min-width: 960px)">
+
+                        <img src="images/icecream2.jpeg" alt="Image 2">
+                    </picture>
+
+                    <picture>
+                     <!-- image 3 -->
+                        <source srcset="images/icecream3-300_x_300.jpeg" media="(max-width: 640px)">
+                        <source srcset="images/icecream3-480_x_480.jpeg" media="(min-width: 960px)">
+
+                        <img src="images/icecream3.jpeg" alt="Image 3">
+                    </picture>
+
+                    <picture>
+                    <!-- image 4 -->
+                        <source srcset="images/icecream4-300_x_300.jpeg" media="(max-width: 640px)">
+                        <source srcset="images/icecream4-480_x_480.jpeg" media="(min-width: 960px)">
+
+                        <img src="images/icecream4.jpeg" alt="Image 4">
+                    </picture>
+
+                    <picture>
+                    <!-- image 5 -->
+                        <source srcset="images/icecream5-300_x_300.jpeg" media="(max-width: 640px)">
+                        <source srcset="images/icecream5-480_x_480.jpeg" media="(min-width: 960px)">
+
+                        <img src="images/icecream5.jpeg" alt="Image 5">
+                   </picture> 
+                </div>
+              </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h4>Happy Penguin Socials</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <div class="copyright">&copy; Happy Penguin, 2022.</div>
+                <p>All images are taken from <a href="https://www.pexels.com/">Pexels</a></p>
+            </div>
+        </div> <!-- end container -->    
+    </footer>
 </body>
 </html>
