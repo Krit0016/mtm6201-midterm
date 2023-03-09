@@ -168,7 +168,7 @@ button {
     animation: expand 1.5s ease-in-out forwards;
 }
   
-  @keyframes expand {
+@keyframes expand {
     0% {
       width: 150px;
       background-color: #f6d8f7;
@@ -179,7 +179,7 @@ button {
       border-color: #d8e267;
       color: #00584b;
     }
-  }
+}
 
 .skip-links {
     list-style: none;
@@ -268,6 +268,10 @@ button {
 
 .section-value h3 {
     text-decoration: underline;
+}
+
+.section-value p {
+    text-indent: 2em;
 }
 
 .value {

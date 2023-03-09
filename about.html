@@ -12,10 +12,246 @@
 
     <script src="https://kit.fontawesome.com/e0e30f139d.js" crossorigin="anonymous"></script>
 
-    <link href="css/index.css" rel="stylesheet">
-    
+    <link href="css/about.css" rel="stylesheet">
+
 </head>
 <body>
+    <!-- skip-links -->
+    <div>
+        <ul class="skip-links">
+            <li><a href="#nav" role="button" aria-label="Skip to main navigation">Skip to main nav</a></li>
+            <li><a href="#main-content" role="button" aria-label="Skip to main content">Skip to main content</a></li>
+            <li><a href="#footer-content" role="button" aria-label="Skip to footer">Skip to footer</a></li>
+        </ul>
+
+        <header>
+            <!-- navigation bar -->
+            <nav id="nav" aria-label="Main Navigation">
+                <div class="container">
+                    <div class="nav-box">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="logo" width="200"></a>
+                        </div>
+                        <ul class="navbar">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="nav-icon">
+                            <li><a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <li><a href="#" aria-label="Profile"><i class="fa-regular fa-circle-user"></i></a></li>
+                            <li><a href="#" aria-label="Cart"><i class="fas fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                </div> <!--  container end -->
+            </nav>
+
+            <!-- Our Story -->
+            <div class="header-ourstory" aria-label="Happy Penguin Story">
+                <div class="container">
+                    <!-- h1, p-->
+                    <h1>Our Story</h1>
+                    <p>Happiness within reach of ice cream.</p>
+                </div> <!-- end container -->
+            </div>
+        </header>
+
+        <main role="main" aria-label="Main Content">
+            <div id="main-content">
+            <!-- How it all start -->
+            <section class="section-start">
+                <div class="container">
+                    <div class="img-start">
+                        <picture>
+                            <source srcset="images/start-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/start-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img class="orig-img" src="images/start.jpeg" alt="original ice cream">
+                        </picture>
+                    </div>
+                    <div class="text-start">
+                        <h2>How it all started</h2>
+                        <p>Happy Penguin is an ice cream company that has been delighting customers with its unique flavors for over four decades. 
+                        Our ice cream is made with the freshest fruits and high-quality ingredients like peanuts and almonds.
+                        </p>
+                        <p>Starting as a small ice cream truck in 1980, we have grown to have a presence in numerous locations across Canada, including supermarkets and convenience stores. 
+                        Despite our growth, we remain committed to creating high-quality, delicious ice cream that brings joy to our customers' lives.
+                        </p>
+                    </div>
+                    <div class="gallery-start">
+                        <picture>
+                            <!-- image 1 -->
+                            <source srcset="images/gallery-start1-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/gallery-start1-480_x_480.jpeg" media="(min-width: 960px)">
     
+                            <img src="images/gallery-start1.jpeg" alt="Our Beginning 1">
+                        </picture>
+    
+                        <picture>
+                            <!-- image 2 -->
+                            <source srcset="images/gallery-start2-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/gallery-start2-480_x_480.jpeg" media="(min-width: 960px)">
+    
+                            <img src="images/gallery-start2.jpeg" alt="Our Beginning 2">
+                        </picture>
+    
+                        <picture>
+                            <!-- image 3 -->
+                            <source srcset="images/gallery-start3-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/gallery-start3-480_x_480.jpeg" media="(min-width: 960px)">
+
+                            <img src="images/gallery-start3.jpeg" alt="Our Beginning 3">
+                        </picture>
+    
+                        <picture>
+                            <!-- image 4 -->
+                            <source srcset="images/gallery-start4-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/gallery-start4-480_x_480.jpeg" media="(min-width: 960px)">
+    
+                            <img src="images/gallery-start4.jpeg" alt="Our Beginning 4">
+                        </picture>
+    
+                        <picture>
+                            <!-- image 5 -->
+                            <source srcset="images/gallery-start5-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/gallery-start5-480_x_480.jpeg" media="(min-width: 960px)">
+    
+                            <img src="images/gallery-start5.jpeg" alt="Our Beginning 5">
+                        </picture>
+
+                        <picture>
+                            <!-- image 6 -->
+                            <source srcset="images/gallery-start6-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/gallery-start6-480_x_480.jpeg" media="(min-width: 960px)">
+    
+                            <img src="images/gallery-start6.jpeg" alt="Our Beginning 6">
+                        </picture>
+
+                        <picture>
+                            <!-- image 7 -->
+                            <source srcset="images/gallery-start7-300_x_300.jpeg" media="(max-width: 640px)">
+                            <source srcset="images/gallery-start7-480_x_480.jpeg" media="(min-width: 960px)">
+    
+                            <img src="images/gallery-start7.jpeg" alt="Our Beginning 7">
+                        </picture>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Made with love -->
+            <section class="section-withlove">
+                <div class="container">
+                    <h2>Made with Love <i class="fas fa-heart"></i></h2>
+                    <p>
+                    Get ready to indulge in a sweet treat that's made with love at Happy Penguin Ice Cream Shop! 
+                    We take great pride in creating each and every scoop with only the highest-quality ingredients and traditional techniques, 
+                    resulting in unique and exciting flavor combinations that are sure to tantalize your taste buds.
+                    </p>
+                    <p>
+                    From classic favorites to more adventurous options like lavender honey and blackberry ginger, our ice cream is made in small batches to ensure maximum freshness. 
+                    Plus, our friendly staff is passionate about sharing their love for ice cream and creating a warm and welcoming atmosphere that will have you coming back for more.
+                    </p>
+                    <p>
+                    At Happy Penguin Ice Cream Shop, we believe that ice cream is more than just a dessert - it's an experience that brings people together, creates memories, and spreads happiness. 
+                    So come on in and try our made-with-love ice cream for yourself. We guarantee you'll be hooked from the first scoop!
+                    </p>
+
+                </div>
+            </section>
+
+            <!-- Learn more -->
+            <section class="section-exploremore">
+                <div class="container">
+                    <h2>Explore More</h2>
+                    <div class="topic-explore">
+                        <!-- Products -->
+                        <div class="topic">
+                            <picture>
+                                <source srcset="images/allproduct-300_x_300.jpeg" media="(max-width: 640px)">
+                                <source srcset="images/allproduct-480_x_480.jpeg" media="(min-width: 960px)">
+
+                                <img src="images/allproduct.jpeg" alt="Products">
+                            </picture>
+                            <a href="#"><button class="topic-btn">All Products</button></a>
+                        </div>
+
+                        <!-- ingredients -->
+                        <div class="topic">
+                            <picture>
+                                <source srcset="images/ingredient-300_x_300.jpeg" media="(max-width: 640px)">
+                                <source srcset="images/ingredient-480_x_480.jpeg" media="(min-width: 960px)">
+
+                                <img src="images/ingredient.jpeg" alt="ingredients">
+                            </picture>
+                            <a href="#"><button class="topic-btn">Ingredients</button></a>
+                        </div>
+
+                        <!-- quality -->
+                        <div class="topic">
+                            <picture>
+                                <source srcset="images/exquality-300_x_300.jpeg" media="(max-width: 640px)">
+                                <source srcset="images/exquality-480_x_480.jpeg" media="(min-width: 960px)">
+
+                                <img src="images/exquality.jpeg" alt="Quality">
+                            </picture>
+                            <a href="#"><button class="topic-btn">Quality Control</button></a>
+                        </div>
+
+                        <!-- promotions -->
+                        <div class="topic">
+                            <picture>
+                                <source srcset="images/promotion-300_x_300.jpeg" media="(max-width: 640px)">
+                                <source srcset="images/promotion-480_x_480.jpeg" media="(min-width: 960px)">
+
+                                <img src="images/promotion.jpeg" alt="Promotions">
+                            </picture>
+                            <a href="#"><button class="topic-btn">Promotions</button></a>
+                        </div>
+
+                        <!-- services -->
+                        <div class="topic">
+                            <picture>
+                                <source srcset="images/service-300_x_300.jpeg" media="(max-width: 640px)">
+                                <source srcset="images/service-480_x_480.jpeg" media="(min-width: 960px)">
+
+                                <img src="images/service.jpeg" alt="Services">
+                            </picture>
+                            <a href="#"><button class="topic-btn">Services</button></a>
+                        </div>
+
+                        <!-- events -->
+                        <div class="topic">
+                            <picture>
+                                <source srcset="images/event-300_x_300.jpeg" media="(max-width: 640px)">
+                                <source srcset="images/event-480_x_480.jpeg" media="(min-width: 960px)">
+
+                                <img src="images/event.jpeg" alt="Events">
+                            </picture>
+                            <a href="#"><button class="topic-btn">Events</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </main>
+
+        <footer role="footer" aria-label="Footer Content">
+            <div id="footer-content">
+            <div class="container">
+                <div class="footer-detail">
+                    <h4>Happy Penguin Socials</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <div class="copyright">&copy; Happy Penguin, 2023.</div>
+                    <p>All images are taken from <a href="https://www.pexels.com/">Pexels</a></p>
+                </div>
+            </div> <!-- end container -->    
+        </footer>  
+    </div> 
+    <!-- end of skip-links -->    
 </body>
 </html>

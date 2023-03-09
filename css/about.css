@@ -1,0 +1,359 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ====== GENERIC STYLES ====== */
+body {
+    background-color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: black;
+}
+   
+h1 {
+    font-family: 'Russo One';
+    font-size: 71px;
+    line-height: 106px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+   
+h2 {
+    font-family: 'Fredoka One';
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 10px;
+ }
+   
+h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+
+p {
+    margin-bottom: 1em;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    background: #FAE1DC;
+}
+
+.container {
+    padding: 1em;
+}
+
+.logo {
+    background: none;
+    width: 200px;
+    display: block;
+    margin: 0 auto
+}
+
+nav a:link,
+nav a:visited {
+    font-size: 18px;
+    color: black;
+    font-weight:bold;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav .current a:link,
+nav .current a:visited {
+    color: black;
+}
+  
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon li {
+    margin: 0 0.5rem;
+}
+
+.navbar a:hover {
+    background-color: #F48C94;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa-search, .fa-user, .fa-shopping-cart {
+	font-size: 18px;
+    background: none;
+    color: black ;
+}
+  
+button {
+    background-color: #f6d8f7;
+    color: #00584b;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    border: 2px solid #f6d8f7;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    animation: expand 1.5s ease-in-out forwards;
+}
+  
+@keyframes expand {
+    0% {
+      width: 150px;
+      background-color: #f6d8f7;
+    }
+    100% {
+      width: 200px;
+      background-color: #d8e267;
+      border-color: #d8e267;
+      color: #00584b;
+    }
+}
+
+.skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: #d8e267;
+    color: #00584b;
+    padding: .5em 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.skip-links a:focus {
+    top: 0;
+}
+
+/* SECTION-SPACIFIC STYLES */
+
+/* ====== OUR STORY SECTION ===== */
+
+.header-ourstory {
+    background-color: #00584b;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.header-ourstory .container {
+    color: white;
+}
+
+.header-ourstory h1 {
+    text-align: center;
+    max-width: 100%;
+}
+
+.header-ourstory p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 100%;
+}
+
+/* ====== HOW IT ALL START SECTION ===== */
+  
+.img-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide any overflow */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.text-start h2 {
+    text-align: center;
+}
+  
+.text-start p {
+    text-indent: 2em;
+}
+
+.gallery-start {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-top: 1.5em;
+}
+  
+.gallery-start picture {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer; /* add pointer icon on hover */
+}
+
+/* ====== MADE WITH LOVE SECTION ===== */
+
+.section-withlove h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #d8e267;
+    text-decoration-style: wavy;
+    text-underline-position: under;
+}
+
+/* .section-withlove h2::after {
+    content: "❤️";
+    margin-left: 5px;
+} */
+
+.fa-heart {
+    color: #F48C94;
+    font-size: 30px;
+} 
+  
+.section-withlove p {
+    text-indent: 2em;
+}
+
+/* ====== EXPLORE MORE SECTION ===== */
+
+.section-exploremore h2 {
+    text-align: center;
+}
+
+.topic {
+    position: relative;
+    text-align: center; /* center the button horizontally */
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+}
+  
+.topic-btn {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    margin: 10px auto 0;
+    cursor: pointer;
+}
+
+.topic-explore {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-top: 1.5em;
+}
+
+.topic img {
+    border-radius: 20px;
+}
+
+/* ====== FOOTER ===== */
+
+footer {
+    background: #FAE1DC;
+    color: black;
+    font-size: 12px;
+}
+
+footer .container {
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 30px;
+}
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+a {
+    color: #00584b;
+}
+
+
+  
+  
+
+
+  
