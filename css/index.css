@@ -203,7 +203,7 @@ button {
 
 /* SECTION-SPACIFIC STYLES */
 
-/* ====== INTRODUCTION SECTION ===== */
+/* ====== WELCOME SECTION ===== */
 
 .header-happypenguin {
     background-image: url(../images/3.2.jpeg);
@@ -396,6 +396,8 @@ a {
         background: none;
     }
 
+    /* ====== WELCOME SECTION ===== */
+
     .header-happypenguin {
         background-image: url(../images/3.jpeg);
     }
@@ -403,6 +405,8 @@ a {
     .header-happypenguin::before {
         background-image: url(../images/3.jpeg);
     }
+
+
     /* ====== OUR VALUE SECTION ===== */
 
     .section-value h2 {
