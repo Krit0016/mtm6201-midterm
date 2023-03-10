@@ -182,6 +182,7 @@ button {
     }
 }
 
+
 .skip-links {
     list-style: none;
     margin: 0;
@@ -443,7 +444,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        padding: 0 auto;
+        padding: 0;
     }
     
     .nav-box {
