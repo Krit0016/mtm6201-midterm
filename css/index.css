@@ -300,10 +300,20 @@ button {
     text-align: center;
     margin-bottom: 1em;
 }
+      
+.section-discover h2 {
+    animation: tracking 2s infinite;
+}
+      
+@keyframes tracking {
+    from {
+      letter-spacing: 0;
+    }
 
-/* .section-discover h2 {
-    margin-bottom: 1em;
-} */
+    to {
+      letter-spacing: 0.5em;
+    }
+}  
 
 .tagline {
     font-size: 18px;
